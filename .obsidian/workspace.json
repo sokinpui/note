@@ -11,12 +11,8 @@
             "id": "ee5cabf7f1f01786",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/digital_logic/Gate-level minimization.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/digital_logic/Gate-level minimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/digital_logic/Gate-level minimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "obsidian/digital_logic/Gate-level minimization.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,5 +139,7 @@
     }
   },
   "active": "ee5cabf7f1f01786",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "obsidian/digital_logic/Gate-level minimization.md"
+  ]
 }

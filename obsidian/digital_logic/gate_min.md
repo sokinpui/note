@@ -33,4 +33,4 @@ Exclusive-NOR == equivalent
 # wired OR and wired AND gates
 ![](../attach/p1.png)
 not a physics gates 
-![](../../img/Pasted%20image%2020230312174039.png)
+![](../../img/p.png)

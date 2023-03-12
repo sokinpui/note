@@ -1,2 +1,2 @@
-Some simple pattern 
-![[../../attach/p-7.png]]
+Some simple pattern
+![](../../attach/p-7.png)

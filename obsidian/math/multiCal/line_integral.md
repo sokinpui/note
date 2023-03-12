@@ -49,7 +49,7 @@ F is a vector function, $F\cdot ndA$ is the flux of F through the surface $dA$ p
 $$\iint_S F\cdot n dA = \iiint_R \nabla \cdot F dV $$
 
 **Stokes's theorem**  $$\oint_CF\cdot dR = \iint_A(curl\space F)\cdot ndA = \iint_A\nabla \times F\cdot ndA $$ applicatible in 3-dimensions. $F$ is a 3-d vector, $R$ and $A$ is defined as following   **definition of divergence and curl of vector field $F=Li+Mj+Nk$**
-![[../../attach/p-9.png]]
+![](../../attach/p-9.png)
 
 
 $$ div F = \nabla\cdot F = \left( \frac{\partial}{\partial x}+\frac{\partial}{\partial y}+\frac{\partial}{\partial z}\right)\cdot(Li+Mj+Nk)= \frac{\partial L}{\partial x}+\frac{\partial M}{\partial y}+\frac{\partial N}{\partial z}$$

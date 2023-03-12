@@ -39,8 +39,8 @@ the initial carry bit set to 1, which is done by the mode $M$ and xor gates.
 ## Subtractor
 perform for subtraction
 for half subtractor, the output are: 1. difference 2. carry borrow
-## Multiplier 
-multiply each bit accordingly, can use and gates to indicate the result of a pair of single bit multiplcation.
+## Multiplier multiply each bit accordingly, can use and gates to indicate the 
+    result of a pair of single bit multiplcation.
 
 ## Mmangitude comparer
 compare each bit t observe wether they are the same, the first have a unequal most significant bit is the larger one.

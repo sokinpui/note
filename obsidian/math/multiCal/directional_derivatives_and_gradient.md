@@ -33,7 +33,7 @@ rapidly.
 
 ***Gradient :***
 Definition of gradient :
-![[../../attach/p-8.png]]
+![](../../attach/p-8.png)
 which is always t he normal vector, imagine a multivariables function $f$ at $P_0$ as a vector, since d$f$ is the change of $f$, and can be represented by a vector, as take partial derivative, d$f$ tends to zero, and the shortest distance must be the normal vector that is the same direction as the function initial moving to at $P_0 =\nabla{f}\cdot u$  lie on the derised tangent plane, where such vector can be foundd by $u =(x,y,z)-P_0$ 
 it is obtaining the tangent plane that lie on $P_0$, since tangent plane always prependictular to normal(gradient)
 

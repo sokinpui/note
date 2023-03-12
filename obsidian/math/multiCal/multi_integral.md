@@ -13,7 +13,7 @@ $$\iiint_Rf(x,y,z)dV=\int_{\alpha|1}^{\alpha_2}\int_{r_1}^{r_2}\int_{z_1}^{z_2} 
 
 
 If the region is bounded by coordinates planes, It is clearly that
-![[../../attach/p-1.png]]
+![](../../attach/p-1.png)
 
 ### Area of Curved surface :
 $$S=\iint_R \sqrt{f_x^2+f_y^2+1} dA $$

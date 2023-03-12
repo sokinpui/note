@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "obsidian/digital_logic/Combinational_logic.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "obsidian/digital_logic/Combinational_logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "obsidian/digital_logic/Combinational_logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "obsidian/digital_logic/Combinational_logic.md"
               }
             }
           }
@@ -146,15 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "93c8ce8b4a3ba685",
+  "active": "aca9a547975f6e34",
   "lastOpenFiles": [
-    "obsidian/digital_logic/HDL/notes.md",
+    "new.md",
+    "obsidian/digital_logic/Algebra boolean.md",
     "obsidian/digital_logic/HDL/combinational circuits.md",
+    "obsidian/digital_logic/HDL/notes.md",
+    "README.md",
     "obsidian/digital_logic/sequential_logic.md",
     "obsidian/digital_logic/HDL",
     "obsidian/digital_logic/Gate-level minimization.md",
     "obsidian/digital_logic/Combinational_logic.md",
-    "obsidian/digital_logic/Algebra boolean.md",
     "obsidian/digital_logic",
     "obsidian/math/multiCal/lagrange multiplies.md",
     "obsidian/math/multiCal/Taylor series.md",

@@ -1,0 +1,17 @@
+{
+  "promptDelete": false,
+  "vimMode": true,
+  "autoPairBrackets": true,
+  "autoPairMarkdown": false,
+  "attachmentFolderPath": "attach",
+  "showLineNumber": true,
+  "readableLineLength": true,
+  "livePreview": true,
+  "showFrontmatter": false,
+  "rightToLeft": false,
+  "spellcheck": false,
+  "defaultViewMode": "source",
+  "tabSize": 4,
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true
+}

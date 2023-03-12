@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "a931746f8631790b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2607439f764b2ada",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea4b9d83967ee395",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b74a924430431e86",
+    "type": "split",
+    "children": [
+      {
+        "id": "2da0f15d81b5fc7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69b893d7ae996c79",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "74465325d7b47a34",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "definition",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "df0fce28e036941d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 371.5
+  },
+  "right": {
+    "id": "e49e6b4c1eb67e55",
+    "type": "split",
+    "children": [
+      {
+        "id": "9628236db58357a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6eb833268b529b06",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "327aa11a3b7eaf75",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "50d8155cb9f0a5fb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "14c9a7e06dc249b5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "69b893d7ae996c79",
+  "lastOpenFiles": [
+    "digital_logic/HDL/syntax.md",
+    "digital_logic/HDL/comb_circuit.md",
+    "digital_logic/gate_min.md",
+    "digital_logic/algebra_boolean.md",
+    "math/multiCal/lagrange_multiplies.md",
+    "math/multiCal/surface.md",
+    "math/multiCal/line_integral.md",
+    "math/multiCal/polar_system.md",
+    "math/multiCal/taylor_series.md",
+    "math/multiCal/multi_integral.md",
+    "math/multiCal/directional_derivatives_and_gradient.md",
+    "math/linearAlgebra/vector_space.md",
+    "math/linearAlgebra/linear_transformation.md",
+    "math/linearAlgebra/homogeneous_coordinates.md",
+    "math/linearAlgebra/Inner_product_space.md",
+    "attach/tempFileForShare_20230228-172122.png",
+    "attach/tempFileForShare_20230228-181658.png",
+    "attach/tempFileForShare_20230228-221259.png",
+    "attach/1.png",
+    "attach/Pasted image 20230312163107.png",
+    "attach/Pasted image 20230312163359.png",
+    "attach/p-3.png",
+    "attach/p-4.png",
+    "attach/p-5.png",
+    "attach/p-6.png",
+    "Untitled.md",
+    "math/multiCal/Line integral.md",
+    "math/multiCal/Lapacian.md",
+    "math/multiCal/lagrange multiplies.md",
+    "math/multiCal/Directional derivatives & Gradient.md",
+    "math/multiCal/Surface in 3-dimension.md",
+    "math/multiCal/Taylor series.md",
+    "math/multiCal/Polar coordinates system.md",
+    "math/multiCal/Multi integral.md",
+    "math/linearAlgebra/Inner product space.md",
+    "math/linearAlgebra/Determinat.md",
+    "note/c/pointer.md~",
+    "note/README.md~",
+    "note/c",
+    "note",
+    "Untitled",
+    "Untitled.canvas",
+    "math/multiCal",
+    "math/linearAlgebra",
+    "math/MultivariablesCalculus",
+    "math/LinearAlgebra",
+    "math"
+  ]
+}

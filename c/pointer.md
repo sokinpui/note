@@ -39,9 +39,5 @@ column index)
 output: `2D array in 1D presentation: 1 2 3 4 5 6 7 8`
 
 
-![[../../attach/Pasted image 20230312163107.png]]
-
-![[../../attach/Pasted image 20230312163359.png]]
-
 
 

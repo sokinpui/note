@@ -47,6 +47,10 @@ $$\nabla f(x)-\sum_{k=1}^M\lambda_kg_k(x)=0$$
 
 and $$g_1(x)=\dots=g_M(x)=0$$
 we desire $P_{max}$ or $P_{min}$ and don't care the multlplies $\lambda_k$.
+see [lagrange mulitpliers](./lagrange_multiplies.md).
 
 Please refer to wiki:
 https://en.wikipedia.org/wiki/Lagrange_multiplier
+
+[](<%%>)?]
+

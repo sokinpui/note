@@ -1,13 +1,19 @@
-***Subspace***
+# basis
+the mininal $set$ span the vector sapce $V$ is the basis of $V$, basis need not 
+to be unit vector, if the set is linear independent, then it is sufficient to be 
+basis.
+To find the othrogonal basis, [Gram-Schmidt Process](./Inner_product.md#Gram-Schmidt-Process)
+
+## Subspace
 Null space/zero space
 Parametric equation
 Closure properties
 any set $S$ satisfy two closure properties of Vector space is a subspace of vector space $V$ 
 
-***Span***
+## Span
 Linear combination of given subset of vector space
 
-***Linearly independence***
+## Linearly independence
 The element In the subset is the basic one
 
 ## Transition matrix (Specify case of linear transformation)
@@ -29,17 +35,13 @@ $$[S][v]_S = [S][Tran][v]_T $$
 Therefore, transition matrix is,
 $$P_{S\leftarrow T}=[S]^{-1}[S][Tran]=[Tran]$$
 
-
-
-***Rank***
+## Rank
 Is the dimension of the space spanned by the row or column vector 
-
 
 # Disprove a vector space or subspcae
 Vector space, if the space value to hold the arthemtic and multiplicatoin operation, then it is not, otherwise, if it holds all operation then it is.
 Subspace: if hold arthemtic and scalar closure properties, then it is subspace.
-
-subspace is set that use the same operation of its master space, vector space.
+Subspace is set that use the same operation of its master space, vector space.
 
 # isomorphism
 if two function are both onto and one to one, and exist inverted function, then they are said to be isomorphic
@@ -47,9 +49,8 @@ function can be vector function and linear transformation or mapping
 example:   $M_{2\times 2}$ is isomorphic to $R_4$, as there exict mapping  $L(m)=v$ .
 
 # onto
-if there exist mapping $f(a)=b$ then  $a$  is onto $b$,  
-
-
+if there exist mapping $f(a)=b$ then  $a$  is onto $b$.
+see [one to one and onto mapping](./linear_transformation.md)
 
 
 

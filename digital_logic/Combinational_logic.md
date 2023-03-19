@@ -53,9 +53,14 @@ The enable input can be activiated by either 0 or 1 signal.
 
 ## demultiplexer
 decoder + multiplexer in the smae time, choose result from decoder
+one input and $n$ control input, it support maximun up to $2^n$ output.
+the concrpt of selection is like encoder, use arrange minterms in order to 
+select the correct output.
+
 
 ## Encoder
-reverse of the decoder, add enable input( swtich), it can be active or inactive by choosing the sign of tthe enable input 
+reverse of the decoder, add enable input( swtich), it can be active or inactive 
+by choosing the sign of tthe enable input
 ## priority Encoder
 defined the truth table is in the desired form which is in stairway, and the output is in the order of defined way.
 Use don't care condition to implemenet priority check and obtain the boolean 
@@ -71,6 +76,9 @@ find the value of function of $F$ for knowns minterms.
 ## threee states gates
 work like circuit, when the control input is zero, no matter the input is, the output is always zero.
 buffer, which proporate the original value of input to output.
-
-
+![](../img/p-2.png)
+there are tri-state buffer and tri-state invertor.
+the control unit determine how the tri-state buffer work, some it work in 
+active-high or active-low, depends on the design of the logic input of control 
+unit.
 

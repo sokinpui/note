@@ -8,24 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f85ddc15fe4aa66f",
+            "id": "56fc89e6090268e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "math/multiCal/multi_integral.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "063073c062d139ab",
+            "id": "8372ec6d57d75ce0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/digital_logic/gate_min.md",
+                "file": "digital_logic/sequential_logic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "548cc9e37cd4d29a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/multiCal/multi_integral.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ecc2a8ea2b101ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/multiCal/line_integral.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "df2af08c6fb3b6f5",
@@ -98,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/digital_logic/gate_min.md",
+                "file": "digital_logic/sequential_logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/digital_logic/gate_min.md",
+                "file": "digital_logic/sequential_logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/digital_logic/gate_min.md"
+                "file": "digital_logic/sequential_logic.md"
               }
             }
           }
@@ -159,17 +184,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "063073c062d139ab",
+  "active": "8372ec6d57d75ce0",
   "lastOpenFiles": [
+    "CountryEconmic.md",
+    "cse.md~",
+    "cse.md",
+    "digital_logic/sequential_logic.md~",
+    "digital_logic/gate_min.md",
+    "digital_logic/simpling.md",
+    "math/multiCal/surface.md",
+    "math/multiCal/multi_integral.md",
+    "math/multiCal/Lapacian.md",
+    "digital_logic/sequential_logic.md",
+    "linAlgebraCheatSheetCollection.md",
+    "linAlgebraCheatSheetCollection.md~",
+    "linearAlgebraTips.md",
+    "linearAlgebraTips.md~",
+    "LinearAtips.md",
+    "rangeOfMatrix.md",
+    "math/linearAlgebra/linear_transformation.md",
+    "math/linearAlgebra/Matrix.md",
+    "math/linearAlgebra/Inner_product.md",
+    "math/linearAlgebra/vector_space.md",
+    "math/linearAlgebra/Determinat.md",
+    "math/multiCal/lagrange_multiplies.md",
+    "math/multiCal/examtips.md",
+    "demux.md",
+    "error.md",
+    "vimSnippets.md",
+    "nullSpace.md",
+    "sleep.md",
+    "vowel.md",
+    "seqCurcuit.md",
+    "math/multiCal/multi_integral.md~",
+    "math/linearAlgebra/Determinat.md~",
+    "math/linearAlgebra/Inner_product.md~",
+    "math/linearAlgebra/vector_space.md~",
+    "img/p-5.png",
+    "img/p-4.png",
+    "img/p-3.png",
+    "img/p-2.png",
+    "digital_logic/Combinational_logic.md~",
+    "sleep",
+    "img/p-1.png",
     "img/p.png",
-    "obsidian/digital_logic/Combinational_logic.md",
-    "obsidian/digital_logic/algebra_boolean.md",
-    "obsidian/digital_logic/gate_min.md",
-    "img/p.png",
-    "img/Pasted image 20230312174011.png",
-    "img/Pasted image 20230312174039.png",
-    "obsidian/math/linearAlgebra/Determinat.md",
-    "img",
-    "obsidian/math/linearAlgebra/homogeneous_coordinates.md"
+    "computer/unix/unix-as-ide/media/unix-as-ide-cover.png",
+    "computer/unix/unix-as-ide/media/file2.png",
+    "computer/unix/unix-as-ide/media/file1.png",
+    "computer/unix/unix-as-ide/media/file0.png"
   ]
 }

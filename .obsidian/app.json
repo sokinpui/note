@@ -2,5 +2,8 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "img"
+  "attachmentFolderPath": "img",
+  "vimMode": true,
+  "defaultViewMode": "preview",
+  "livePreview": true
 }

@@ -13,7 +13,7 @@ see [prove of path independence](./line_integral.md).
 Once the function $F$ is provided to be gradient field.
 1. use a simple path to evluate. Parametrize the curve in its simple way: $$r(t) 
    = A + t(B-A),$$ for $0≤t≤1$.
-   need to change the limit of integral from $dr$ to $dt$, $$\int_{A}{B} F(r) dr 
+   need to change the limit of integral from $dr$ to $dt$, $$\int_{A}^{B} F(r)\cdot dr 
    = \int_{t_0}^{t_1}F\big((r\small(t\small))\big) \cdot \frac{dr(t)}{dt} \cdot 
    dt = \int_{t_0}^{t_1}F(t) \cdot r'(t) dt$$
 2. use the fundamental theorem of line integral, require to find the original 

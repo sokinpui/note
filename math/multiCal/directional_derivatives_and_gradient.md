@@ -22,7 +22,7 @@ note that R is an vector an is parallel to unit vector u, so,
 $$\frac{df}{ds} = ( \nabla f) \cdot u $$
 $$\frac{df}{ds} =  |\nabla f| cos\theta $$
 when $u$ is not unit vector,
-$$\frac{dF}{ds} = \frac{1}{|u|}\cdot u \cdot \nabla F $$
+$$\frac{df}{ds} = \frac{1}{|u|}\cdot u \cdot \nabla f $$
 
 
 # Properties: 

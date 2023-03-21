@@ -11,17 +11,21 @@ one bit storages, it is level-triggered, the state of latch always update to the
 input(usually CLKL) $$Q(t+1) = f\big(Q(t)\big)$$![](../img/p-3.png)
 
 Initialization will be taken in other place don't worry this.
+[Initialization](./sequential_logic# Positive-edge-triggered-flip-flop)
+
 **Flip-flop**
 is a binary storage that store one-bit information, like the black-white flag in three 
 body.
 
 ## basic Latched
 **SR-Latches**
-will not change the state if input doesn't change. It is implmeneted by NOR gates.  
+Will not change the state if input doesn't change. It is implmeneted by NOR gates.  The state follow the state of R(reset) and S(set).
 ![](../img/p-5.png)
 
-**S'R'-lateches**
-Implemented by NAND gates.  ![](../img/p-4.png)
+**S'R'-lateches/RS-latches**
+Implemented by NAND gates. The state follow the complement of the R(reset) and S(set).
+ ![](../img/p-4.png)
+
 
 $S'R'$ or $RS$ latch differ from $SR$ latch that the input is in complement
 form.
@@ -30,9 +34,7 @@ form.
 implement by two level NAND gates.
 Q stand for set states, Q' stand for reset states.
 
-# D-latch and D flip-flops The **D** stands for **"Delayed"**.  latch is
-level sensitive, while flip flop is sensitive to the raise or fall of the
-state.
+# Flip-flops
 
 ## Usage of flip flops
 flips-flops is use to store the input, a D-type flip flops will store the input
@@ -41,13 +43,28 @@ next state. Flip flop will not change the state if the input R and S back to
 the base state, example, in active high, RS=01, back to RS=00 will not change
 the state of Q(t).
 
-## Differenct types of flip flops
+## Types_of_flip_flops
+**SR flip flops**
+Clocked version of SR latch. Use AND gates for CLK.
+![](../img/p-11.png)
+**RS flip flop**
+Clocked version of RS latch. Use NAND gates for CLK.
+![](../img/p-12.png)
 **D flip flop**
-storage the input into Q and its complement to Q'.
+Storage the input into Q and its complement to Q'. Next state equal to present states.
+![](../img/p-7.png)
+or in this simplify form:
+![](../img/p-17.png)
 **jk flip flops**
-change the state of the flip flops so to change the value store in flip flops.
+Change the state of the input of J and K to change the value store in flip flops.
+![](../img/p-8.png)
+or in this simplify form:
+![](../img/p-18.png)
 **t flip flops**
-complement the information storing inside the flip flops.
+Complement the information storing inside the flip flops.
+![](../img/p-9.png)
+or in this simplify form:
+![](../img/Pasted%20image%2020230320102250.png)
 
 ## boolean algebra of jk flip flop and T flip flop
 $$D: Q(t+1) = D$$
@@ -61,11 +78,14 @@ change the out put whenever the pulse change.
 **D type positive/negative edge-triggered flip flops**
 change merely when the poitive/negative transition occur.
 
-# Implementation of positive edge triggered flip flops
+# Positive-edge-triggered-flip-flops
 Use three active high NAND latch to implement the positive edge triggered flip flops.
 key idea is lock the input of R and S. Use $Reset$ to initialize the state of the flip
 flops. $Reset$ should be independent of the clock pulse $CLK$ and the input
 $D$. 
+Edge triggered flip flops:
+![](../img/p-6.png)
+
 
 # Analysis of clocked sequential ciruits
 ## State table
@@ -84,24 +104,27 @@ $$Q(t+1) = F\big(Q(t)\big)$$
 The input in sequential circuit $Q$ is the current state, the output and then direct to 
 the flip fop again is the next state $Q(t+1)$, 
 
-## Flip flops input equation For convenience, the input equation variables
-is defines in form of $$D_A=x+y$$ where $D$ is the input D of the flip flop
-and $A$ is the output of the flip flops with respect to the input D(
-indicate that A is related to D ), $x$ and $y$ are the input that connect to
-the input of the flip flop.
+## Flip flops input equation
+For convenience, the input equation variables is defines in form of $$D_A=x+y$$ where 
+$D$ is the input D of the flip flop
+and $A$ is the output of the flip flops with respect to the input D( indicate that A is 
+related to D ), $x$ and $y$ are the input that connect to the input of the flip 
+flop.
 
-## Different types of equations characteristic equation: descirbe how the
-flips flops works.  input equation: describe the relationshiop between
+## Different types of equations characteristic equation:
+descirbe how the flips flops works.  input equation: describe the relationshiop between 
 external inputs and the flip flop inputs. State equation: the expression of
 $Q(t+1) = F\big(Q(t)\big)$ in terms of external inputs and the present
 state.
 
-## Merely and Moore machine Mearly: the outpute depends by the present state
-and the present input.  moore: the outputs depend by the present state only,
-so moore machine is synchronized with the clock.
+## Merely and Moore machine Mearly:
+The outpute depends by the present state
+and the present input.  moore: the outputs depend by the present state only, so moore 
+machine is synchronized with the clock.
 
-## State reduction Remove the equivalent one that is with the same input
-give the same output and the same state.
+## State reduction
+Remove the equivalent one that is with the same inputgive the same output and the same 
+state.
 
 ## Assignment Assign a binary number to the states.
 

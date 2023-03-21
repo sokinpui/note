@@ -32,31 +32,42 @@
             }
           },
           {
-            "id": "548cc9e37cd4d29a",
+            "id": "a31785265362af3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/multiCal/multi_integral.md",
+                "file": "seqCurcuit.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4ae3d965c163c49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/multiCal/polar_system.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4ecc2a8ea2b101ea",
+            "id": "be0e2b1f619477ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "math/multiCal/line_integral.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "digital_logic/sequential_logic.md",
+                "file": "math/multiCal/multi_integral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "digital_logic/sequential_logic.md",
+                "file": "math/multiCal/multi_integral.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "digital_logic/sequential_logic.md"
+                "file": "math/multiCal/multi_integral.md"
               }
             }
           }
@@ -184,53 +195,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8372ec6d57d75ce0",
+  "active": "56fc89e6090268e5",
   "lastOpenFiles": [
-    "CountryEconmic.md",
-    "cse.md~",
-    "cse.md",
-    "digital_logic/sequential_logic.md~",
-    "digital_logic/gate_min.md",
-    "digital_logic/simpling.md",
-    "math/multiCal/surface.md",
+    "shell/variables.md",
+    "shell/options.md",
+    "shell/if.md",
+    "onedarkColorChange.md",
+    "math/multiCal/multi_integral.md~",
+    "math/multiCal/polar_system.md",
+    "Puncnation.md",
+    "shell/zip.md",
+    "math/multiCal/line_integral.md",
     "math/multiCal/multi_integral.md",
     "math/multiCal/Lapacian.md",
-    "digital_logic/sequential_logic.md",
-    "linAlgebraCheatSheetCollection.md",
-    "linAlgebraCheatSheetCollection.md~",
-    "linearAlgebraTips.md",
-    "linearAlgebraTips.md~",
-    "LinearAtips.md",
-    "rangeOfMatrix.md",
-    "math/linearAlgebra/linear_transformation.md",
-    "math/linearAlgebra/Matrix.md",
-    "math/linearAlgebra/Inner_product.md",
-    "math/linearAlgebra/vector_space.md",
-    "math/linearAlgebra/Determinat.md",
     "math/multiCal/lagrange_multiplies.md",
+    "digital_logic/simpling.md",
+    "math/multiCal/taylor_series.md",
+    "math/multiCal/directional_derivatives_and_gradient.md",
     "math/multiCal/examtips.md",
-    "demux.md",
-    "error.md",
-    "vimSnippets.md",
-    "nullSpace.md",
-    "sleep.md",
-    "vowel.md",
+    "math/multiCal/surface.md",
+    "LinearAtips.md",
+    "digital_logic/sequential_logic.md",
+    "mulIntegral.md",
     "seqCurcuit.md",
-    "math/multiCal/multi_integral.md~",
+    "project.md",
+    "seqCurcuit.md~",
+    "img/p-18.png",
+    "img/p-17.png",
+    "img/p-16.png",
+    "img/Pasted image 20230320102250.png",
+    "img/p-15.png",
+    "img/p-14.png",
+    "img/p-13.png",
+    "img/p-12.png",
+    "img/p-11.png",
+    "img/p-10.png",
+    "digital_logic/sequential_logic.md~",
+    "Implementation.md",
+    "Untitled.md",
+    "gym.md",
+    "vim/snips.md",
+    "vim/Ultisnips.md",
+    "cse.md~",
+    "linAlgebraCheatSheetCollection.md~",
+    "linearAlgebraTips.md~",
     "math/linearAlgebra/Determinat.md~",
     "math/linearAlgebra/Inner_product.md~",
     "math/linearAlgebra/vector_space.md~",
-    "img/p-5.png",
-    "img/p-4.png",
-    "img/p-3.png",
-    "img/p-2.png",
-    "digital_logic/Combinational_logic.md~",
-    "sleep",
-    "img/p-1.png",
-    "img/p.png",
-    "computer/unix/unix-as-ide/media/unix-as-ide-cover.png",
-    "computer/unix/unix-as-ide/media/file2.png",
-    "computer/unix/unix-as-ide/media/file1.png",
-    "computer/unix/unix-as-ide/media/file0.png"
+    "digital_logic/Combinational_logic.md~"
   ]
 }

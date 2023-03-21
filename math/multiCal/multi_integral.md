@@ -31,3 +31,4 @@ It is done by projection of the area on the x-y plane onto to the curved surface
 see [polar system](./polar_system.md) or spherial system or
 cylindrical coordinate system.
 
+

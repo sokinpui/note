@@ -23,6 +23,7 @@ F is vector function, dR is position vector with the unit vector $(dx)i+(dy)j+(d
 $$\oint_C F\cdot dR = \oint_c Mdx + Ndy = \iint_R
 \left(\frac{\partial N}{\partial x }-\frac{\partial M}{\partial y }\right)dA$$
 where *A* is the area closed by the path *C* 2-d version Stokes' theorem.
+$\oint_C F\cdot dR = \oint_c Mdx + Ndy$  come from the dot product.§
 
 **Properties of Green's theorm and Stokes's theorem**
 **If $C$ is a simple closed path**

@@ -1,4 +1,4 @@
-rotation is position if it is in anti-clockwise.
+rotation is positive if it is in anti-clockwise.
 the rotation matrix along y-axis is negative in right-hand syste
 
 translation: $v=u+t$  

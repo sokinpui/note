@@ -1,5 +1,13 @@
 {
-  "file-explorer:open": [
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "L"
+    }
+  ],
+  "markdown:toggle-preview": [
     {
       "modifiers": [
         "Ctrl"

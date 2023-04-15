@@ -1,5 +1,9 @@
 {
   "accentColor": "",
   "theme": "moonstone",
-  "baseFontSize": 20
+  "baseFontSize": 18,
+  "nativeMenus": true,
+  "showViewHeader": false,
+  "translucency": false,
+  "monospaceFontFamily": "Menlo"
 }

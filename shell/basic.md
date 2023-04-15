@@ -1,19 +1,43 @@
+# shell script
+## Shebang
+```sh
+#!/bin/sh
+# script
+.
+.
+.
+```
+The `#!` known as **she-bang**, sharp `#` and bang `!`. It indicate to the 
+system that the script will be excuted by the /bin/sh.
+
+## variable
+Other than  wildcards, all string can be perform as variables.
+**Assginment**:
+```sh
+var="string"
+var = "string"
+```
+The second line interrupt as cmd `var` read arguments `=` and 
+`"string"`.
+**calling variables**:
+```sh
+echo $var
+echo ${var}_suffix_foo
+```
+
 # shell command
 
 `export`
 `cat` concatanation and print
 
-Regular expression
-------------------
-`[...]` match the single character inside the brackets
 
-Command
--------
+## pushd
 ```
 pushd <dir>
 ```
 push the argments to the directory stack list       
 
+# xargs
 ```
 xargs
 find .vim | xargs ls -l
@@ -45,9 +69,8 @@ paste
 or use `ls | paste - - -` to ls the contents in three columns
 
 
-# Basic command
-**ls**
-	ls -1
+## ls
+    ls -1
 list the content in column, differ with -l that -1 only display the name of the directioary.
 
 	ls -r 
@@ -75,8 +98,10 @@ list the contents of the in column form with human readible file size details.
 sort the file according to the added time and show only the first few elements. 
 
 **find**
+
 	find [file path] [-flag] [target]
 Example: 
+
 	find . -name '*.c'
 find files with suffix .c in current diectory 
 need at least one argument, the file path you would like to search. 
@@ -121,16 +146,20 @@ If Access Right is not permitted, will show in '-'
 # Regular expression 
 *	match any length of characters.
 ?	match any single character.
-[<pattern>]		match any character that is the pattern given. 
-[!<pattern>]	match any character that is not the pattern given. 	
+[<pattern>]		match any character that is the pattern given.
+[!<pattern>]	match any character that is not the pattern given.
+`[...]` match the single character inside the brackets
 
-**Brace expansion**
+## Brace expansion
 it is use to give multli input in series or patter 
+
 	echo file-{1, 2, 3}
 output: file-1 file-2 file-3
+
 	echo file-{1..3}
 same output as above
 '{..}' support descending order series
+
 	mkdir dir-{a..z}-
 
 

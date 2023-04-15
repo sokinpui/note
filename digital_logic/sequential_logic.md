@@ -66,6 +66,10 @@ Complement the information storing inside the flip flops.
 or in this simplify form:
 ![](../img/Pasted%20image%2020230320102250.png)
 
+### Conservation between flip flops
+**JK -> T**
+When J and K connect to the same input, it become T flip flops.
+
 ## boolean algebra of jk flip flop and T flip flop
 $$D: Q(t+1) = D$$
 $$jk:Q(t+1) = JQ' + K'Q$$
@@ -73,21 +77,46 @@ $$T: Q(t+1) = TQ' + T'Q$$
 D is the input in D flip flops.
 
 # Avoid the change of output when the clock is active state.
-**master-slave D flip-flops**
+**Master-slave D flip-flops**
 change the out put whenever the pulse change.
 **D type positive/negative edge-triggered flip flops**
 change merely when the poitive/negative transition occur.
 
-# Positive-edge-triggered-flip-flops
-Use three active high NAND latch to implement the positive edge triggered flip flops.
-key idea is lock the input of R and S. Use $Reset$ to initialize the state of the flip
-flops. $Reset$ should be independent of the clock pulse $CLK$ and the input
-$D$. 
-Edge triggered flip flops:
-![](../img/p-6.png)
+## Flip flops triggeration
+1. Level triggerred
+2. edge triggerered(PETFF)
+3. Master slave triggered(MSFF)
+
+### Level triggered
+Latch with CLK is a level triggered flip flop(or simply Flip flop).
+**level triggered:**
+![](../img/p-19.png)
+
+### Positive-edge-triggered-flip-flops
+Use three active high NAND latch to implement the positive edge triggered flip 
+flops. Key idea is lock the input of R and S. Use $Reset$ to initialize the 
+state of the flip flops. $Reset$ should be independent of the clock pulse $CLK$ 
+and the input $D$.
+**Positive edge triggerered:**
+![](../img/p-20.png)
+
+### Master slave Flip flops
+Use two layer of level triggered flip flops to perform a edge triggered flip 
+flop, negative or positive edge triggered can be changed by complement the 
+CLK.
+**Master slave triggered:**
+![](../img/p-23.png)
+
+### Why PETFF is needed when we can use MSFF
+Because the PETFF use the least gates.
 
 
 # Analysis of clocked sequential ciruits
+## Procedure of Analysis
+1. Find the state equation
+2. Derive the state table
+3. drwa the state diagram
+4. derive the purpose of the ciruit.
 ## State table
 1. present state
 2. input(if have)
@@ -95,8 +124,6 @@ Edge triggered flip flops:
 4. output(if have)
 
 ## State diagram insert a picture here.
-
-## State table
 
 ## Characteristic equation
 The equation describe how the flip flop works.
@@ -110,21 +137,27 @@ $D$ is the input D of the flip flop
 and $A$ is the output of the flip flops with respect to the input D( indicate that A is 
 related to D ), $x$ and $y$ are the input that connect to the input of the flip 
 flop.
+$D_A$ mean the output $A$ from the input of $D$ flip-flop.
 
-## Different types of equations characteristic equation:
-descirbe how the flips flops works.  input equation: describe the relationshiop between 
-external inputs and the flip flop inputs. State equation: the expression of
-$Q(t+1) = F\big(Q(t)\big)$ in terms of external inputs and the present
-state.
+## Different types of equations
+**characteristic equation:**
+descirbe how the flips flops works.
+**input equation:**
+describe the relationshiop between external inputs and the flip flop inputs.
+**State equation:**
+the expression of $Q(t+1) = F\big(Q(t)\big)$ in terms of external inputs and the present state.
 
-## Merely and Moore machine Mearly:
-The outpute depends by the present state
-and the present input.  moore: the outputs depend by the present state only, so moore 
-machine is synchronized with the clock.
+# Finite State Machine(FSM)
+## Merely and Moore machine
+**Mearly:**
+The outpute depends by the present state and the present input.
+**Moore:**
+The outputs depend by the present state only, so moore machine is synchronized with the 
+clock.
 
 ## State reduction
-Remove the equivalent one that is with the same inputgive the same output and the same 
-state.
+Remove the equivalent one that is with the same inputgive the same output and 
+the same state.
 
 ## Assignment Assign a binary number to the states.
 
@@ -139,3 +172,30 @@ The standard process:
 2. state diagram -> state reduction
 3. minimialization
 
+# Propagation Delay
+Real world circuit will perform in unpredictable behaviour when propagation delay 
+exist.
+
+<!-- asdfasdf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+asfdasdfsaf-->

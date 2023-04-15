@@ -8,63 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "56fc89e6090268e5",
+            "id": "379f2395ea293c04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/multiCal/multi_integral.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8372ec6d57d75ce0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "digital_logic/sequential_logic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a31785265362af3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "seqCurcuit.md",
+                "file": "math/linearAlgebra/linear_transformation.md",
                 "mode": "preview",
+                "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "e4ae3d965c163c49",
+            "id": "acb95d21f743cba7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/multiCal/polar_system.md",
+                "file": "digital_logic/Combinational_logic.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "be0e2b1f619477ac",
+            "id": "3fa3689d589a08d7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/multiCal/line_integral.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -91,7 +65,15 @@
             }
           },
           {
-            "id": "44929ce4dec493cf",
+            "id": "2366fc0cca6f089b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "385c1b1d0b61df0f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -104,21 +86,12 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "2366fc0cca6f089b",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "df2af08c6fb3b6f5",
@@ -129,29 +102,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3b68c7514063d579",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "math/multiCal/multi_integral.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "122d978ee6d1d22f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/multiCal/multi_integral.md",
+                "file": "math/linearAlgebra/linear_transformation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/multiCal/multi_integral.md"
+                "file": "math/linearAlgebra/linear_transformation.md"
               }
             }
           }
@@ -187,61 +143,60 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "graph:Open graph view": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "canvas:Create new canvas": true,
+      "command-palette:Open command palette": true,
+      "switcher:Open quick switcher": true
     }
   },
-  "active": "56fc89e6090268e5",
+  "active": "379f2395ea293c04",
   "lastOpenFiles": [
-    "shell/variables.md",
-    "shell/options.md",
-    "shell/if.md",
-    "onedarkColorChange.md",
-    "math/multiCal/multi_integral.md~",
-    "math/multiCal/polar_system.md",
-    "Puncnation.md",
-    "shell/zip.md",
-    "math/multiCal/line_integral.md",
-    "math/multiCal/multi_integral.md",
-    "math/multiCal/Lapacian.md",
-    "math/multiCal/lagrange_multiplies.md",
-    "digital_logic/simpling.md",
-    "math/multiCal/taylor_series.md",
-    "math/multiCal/directional_derivatives_and_gradient.md",
-    "math/multiCal/examtips.md",
-    "math/multiCal/surface.md",
-    "LinearAtips.md",
     "digital_logic/sequential_logic.md",
-    "mulIntegral.md",
-    "seqCurcuit.md",
-    "project.md",
-    "seqCurcuit.md~",
-    "img/p-18.png",
-    "img/p-17.png",
-    "img/p-16.png",
-    "img/Pasted image 20230320102250.png",
-    "img/p-15.png",
-    "img/p-14.png",
-    "img/p-13.png",
-    "img/p-12.png",
-    "img/p-11.png",
-    "img/p-10.png",
-    "digital_logic/sequential_logic.md~",
-    "Implementation.md",
+    "math/multiCal/line_integral.md~",
+    "digital_logic/Combinational_logic.md",
+    "vim/regualr_ex.md",
+    "vim/marco.md",
+    "vim/INSERT.md",
+    "vim/filetype.md",
+    "vim/marks.md",
+    "vim/buffer.md",
+    "vim/register.md",
+    "vim/read.md",
     "Untitled.md",
-    "gym.md",
-    "vim/snips.md",
-    "vim/Ultisnips.md",
-    "cse.md~",
-    "linAlgebraCheatSheetCollection.md~",
-    "linearAlgebraTips.md~",
-    "math/linearAlgebra/Determinat.md~",
-    "math/linearAlgebra/Inner_product.md~",
-    "math/linearAlgebra/vector_space.md~",
-    "digital_logic/Combinational_logic.md~"
+    "math/multiCal/line_integral.md",
+    "shell/vim-cursor.md",
+    "vim/motion.md",
+    "c/func.md~",
+    "digital_logic/shannon_expression.md",
+    "digital_logic/pal.md~",
+    "digital_logic/shannon_expressino.md",
+    "img/p-26.png",
+    "c/pointer.md~",
+    "c/c",
+    "c/c.c",
+    "math/multiCal/multi_integral.md",
+    "math/multiCal/polar_system.md",
+    "Temp/mulIntegral.md",
+    "c/alias.md",
+    "shell/basic.md~",
+    "shell/loop.md~",
+    "shell/loop.md",
+    "c/syntax.md",
+    "c/cliarg.md",
+    "c/struct.md~",
+    "c/struct.md",
+    "digital_logic/sequential_logic.md~",
+    "digital_logic/pal.md",
+    "p.png",
+    "img/p-25.png",
+    "img/Pasted image 20230402102934.png",
+    "img/p.png",
+    "img/p-9.png",
+    "img/p-8.png",
+    "img/p-7.png",
+    "img/p-6.png",
+    "img/p-4.png"
   ]
 }

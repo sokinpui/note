@@ -9,3 +9,4 @@ so the gradient is the direction it tends to move, when it attends maximum, it w
 similarly, minimum follows.
 
 
+

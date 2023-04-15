@@ -5,7 +5,7 @@
 
 # Standard commbination cirucuit
 ## Adder
-**half adder**
+*half adder**
 two digit addition
 
 **full adder**
@@ -57,7 +57,6 @@ one input and $n$ control input, it support maximun up to $2^n$ output.
 the concrpt of selection is like encoder, use arrange minterms in order to 
 select the correct output.
 
-
 ## Encoder
 reverse of the decoder, add enable input( swtich), it can be active or inactive 
 by choosing the sign of tthe enable input
@@ -65,6 +64,8 @@ by choosing the sign of tthe enable input
 defined the truth table is in the desired form which is in stairway, and the output is in the order of defined way.
 Use don't care condition to implemenet priority check and obtain the boolean 
 expression.
+![](../img/p-26.png)
+V is valid
 
 ## mutliplexer/data selector
 also call as data selector, by using enable input and selector input, can 
@@ -81,4 +82,3 @@ there are tri-state buffer and tri-state invertor.
 the control unit determine how the tri-state buffer work, some it work in 
 active-high or active-low, depends on the design of the logic input of control 
 unit.
-

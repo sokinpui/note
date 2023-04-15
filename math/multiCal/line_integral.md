@@ -17,9 +17,7 @@ F is vector function, dR is position vector with the unit vector $(dx)i+(dy)j+(d
 
 **scalar field** is a vector function give scalar, it has is subfield gradient field by taking gradient of each variables to become the compleont of the vector function gradient field. 
 
-
-
-**Green's theorrm**: 
+## Green's theorrm:
 $$\oint_C F\cdot dR = \oint_c Mdx + Ndy = \iint_R
 \left(\frac{\partial N}{\partial x }-\frac{\partial M}{\partial y }\right)dA$$
 where *A* is the area closed by the path *C* 2-d version Stokes' theorem.
@@ -30,19 +28,37 @@ $\oint_C F\cdot dR = \oint_c Mdx + Ndy$  come from the dot product.§
 1. $\oint F \cdot dR = 0$ for every simple closed curve C 
 2. $\int_C f \cdot dR$ is independent of the path 
 3. F is a gradient field 
-4. $curl \space F= 0$ 
-The statement in 4 is because it is the gradient field of some function. imagine the determinant
-form of curl, they have two row same, so $curl\space F = 0$ 
+4. $curl \space F= 0$
+   this statemen hold because it is the gradient field of some function.  
+   imagine the determinant form of curl, they have two row same, so
+   $curl\space F = 0$ 
 
 ## Surface-integral:
-$$ \iint_Sf(x,y,z)dA$$  
-**applicaiton of surface integral : flux** 
+$$ \iint_Sf(x,y,z)dS$$
+Applicaiton of surface integral : flux.
+Note that _Surface integral_ may need to divide into serverl part before 
+evaluate.
 
-**Guess's theorm or divergence theorem** 
-F is a vector function, $F\cdot ndA$ is the flux of F through the surface $dA$ per unit time.    
+### Orientable and Non-Orientable surface
+Oriented surface is a smooth surface together with a particular choice of 
+orienting unit $n$.  
+
+## Guess's theorem or divergence theorem
+F is a vector function, $F\cdot ndA$ is the flux of F through the surface $dA$ 
+per unit time.
 $$\iint_S F\cdot n dA = \iiint_R \nabla \cdot F dV $$
+So, if you don't want to use Guess's theorem, you will need to evaluate each surface indpendently.
+The normal $n$ is equal to the cross product of the partial derivatives.
+Parametize the $x,y,z$ into two parameteric variables to find the $n$
 
-**Stokes's theorem**  $$\oint_CF\cdot dR = \iint_A(curl\space F)\cdot ndA = \iint_A\nabla \times F\cdot ndA $$ applicatible in 3-dimensions. $F$ is a 3-d vector, $R$ and $A$ is defined as following   **definition of divergence and curl of vector field $F=Li+Mj+Nk$**
+## Stokes's theorem
+$$\oint_CF\cdot dR = \iint_A(curl\space F)\cdot ndA = \iint_A\nabla \times 
+F\cdot ndA$$
+Applicatible in 3-dimensions, $F$ is a 3-d vector, $R$ and $A$ is defined as 
+following.
+**definition of divergence and curl of vector field:**
+$$F=Li+Mj+Nk$$
+**Relationship between region $R$ and surface $A$:**
 ![](../../attach/p-9.png)
 
 
@@ -103,5 +119,3 @@ Given that the function inside integral is a gradient field, where $B$ and $A$
 are the ending point and starting point of the integral.
 $f$ should be a scaled multivariables function, $f$ should be a scalar field.
 It immediately implies that the field is line independence field.
-
-

@@ -52,7 +52,7 @@ The normal $n$ is equal to the cross product of the partial derivatives.
 Parametize the $x,y,z$ into two parameteric variables to find the $n$
 
 ## Stokes's theorem
-$$\oint_CF\cdot dR = \iint_A(curl\space F)\cdot ndA = \iint_A\nabla \times 
+$$\oint_CF\cdot dR = \iint_R(curl\space F)\cdot ndA = \iint_R\nabla \times 
 F\cdot ndA$$
 Applicatible in 3-dimensions, $F$ is a 3-d vector, $R$ and $A$ is defined as 
 following.
@@ -73,13 +73,12 @@ $n$ must be unit normal vector, since above theorem has its physical meaning of 
 ## **Lenght of the curve:**
 **Vector parametic function**
 $S$ is the lenght of the line, $r(t)$ is the vector parametic function. 
-$$ S = \int_a^b \sqrt{r'(t)\cdot r'(t)}dt $$
-The lenght of line $r(t)$ from t = a to t = b.
+$$ S = \int_{t_0}^{t_1} \sqrt{r'(t)\cdot r'(t)}dt $$
 
 **realationship between$r(S)$ and $r(t)$**
 $$ r'(t) = r'(S) \frac{dS}{dt} $$
 $$ r'(t) = r'(S) \sqrt{r'(t)\cdot r'(t)}= r'(S)\cdot |r'(t)|$$
-$$ r'(S) = \frac{1}{|r'(t)} r'(t)$$
+$$ r'(S) = \frac{1}{|r'(t)|} r'(t)$$
 
 the meaning of divergence:
 the rate of change of the vector field: to source or to sink

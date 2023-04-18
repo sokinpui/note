@@ -49,8 +49,8 @@ final result we find is  $[L(x)]_T = A[x]_S$
 The matrix $A$ differ when the ordered basis of $S$ and $T$ are different.  
 Prerequires: we need to know how linear transformation $L$ is.
 
-# Why the coordinate matrix of Linear transoformation is the matrix $A$ of linear transformation?
-![](../../attach/p.png)
+# Why the coordinate matrix is the matrix representation.
+![](../../img/p-27.png)
 $A$ is the matrix associate to linear transformation $L$ with respect to bases 
 $S$ and $T$.
 

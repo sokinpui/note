@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/multiCal/multi_integral.md",
+                "file": "math/linearAlgebra/vector_space.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/multiCal/multi_integral.md",
+                "file": "math/linearAlgebra/vector_space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/multiCal/multi_integral.md"
+                "file": "math/linearAlgebra/vector_space.md"
               }
             }
           }
@@ -141,16 +141,22 @@
   },
   "active": "b7ff6f665d2751e4",
   "lastOpenFiles": [
-    "shell/stdout.md",
-    "math/multiCal/polar_system.md",
-    "math/multiCal/taylor_series.md",
+    "arch/systemd.md",
+    "arch/issue/dependency-fail.md",
+    "arch/issue",
+    "issue/dependency-fail.md",
+    "issue",
+    "math/linearAlgebra/Determinat.md",
     "math/multiCal/surface.md",
+    "math/multiCal/taylor_series.md",
+    "math/multiCal/polar_system.md",
+    "math/multiCal/multi_integral.md",
+    "shell/stdout.md",
     "math/multiCal/directional_derivatives_and_gradient.md",
     "math/multiCal/examtips.md",
     "math/multiCal/lagrange_multiplies.md",
     "math/multiCal/Lapacian.md",
     "math/multiCal/line_integral.md",
-    "math/multiCal/multi_integral.md",
     "an.c~",
     "an",
     "an.c",
@@ -169,17 +175,11 @@
     "vim/register.md",
     "vim/read.md",
     "Untitled.md",
-    "shell/vim-cursor.md",
-    "vim/motion.md",
     "c/func.md~",
-    "digital_logic/shannon_expression.md",
     "digital_logic/pal.md~",
-    "digital_logic/shannon_expressino.md",
     "img/p-26.png",
     "c/pointer.md~",
     "c/c",
-    "c/c.c",
-    "shell/basic.md~",
     "p.png",
     "img/p-25.png",
     "img/Pasted image 20230402102934.png",

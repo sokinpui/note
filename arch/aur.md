@@ -13,3 +13,13 @@ makepkg -Acs
 # Then install the package via pacman
 sudo pacman -U x.pkg.tar.xz
 ```
+
+What is yay?
+Yay is Arch Linux AUR helper tool written in Go. It helps you to install 
+packages from PKGBUILDs in an automated way.
+
+# yay
+```sh
+yay -S <package>
+```
+

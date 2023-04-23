@@ -141,6 +141,7 @@
   },
   "active": "b7ff6f665d2751e4",
   "lastOpenFiles": [
+    "arch/wifi.md",
     "arch/systemd.md",
     "arch/issue/dependency-fail.md",
     "arch/issue",
@@ -174,7 +175,6 @@
     "vim/buffer.md",
     "vim/register.md",
     "vim/read.md",
-    "Untitled.md",
     "c/func.md~",
     "digital_logic/pal.md~",
     "img/p-26.png",

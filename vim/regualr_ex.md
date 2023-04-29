@@ -6,3 +6,4 @@
 [^<pattern>]: not include the pattern
 [pattern]: include the pattern
 
+\0: store the first matched wildcard

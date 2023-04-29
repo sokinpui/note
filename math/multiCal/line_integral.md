@@ -39,6 +39,18 @@ Applicaiton of surface integral : flux.
 Note that _Surface integral_ may need to divide into serverl part before 
 evaluate.
 
+### Examples:
+$$
+I = \iint_S x^2dydz + y^2dxdz + z^2dxdy
+$$
+Surface are $x^2 + y^2 = z^2$ where $z \in [0,1]$.
+Use Jacobian to transfer the coordinates into:
+$$
+I = \iint_S [x^2\cdot J(y,z) + y^2\cdot J(x,z) + z^2\cdot J(x,y)]dudv
+$$
+
+
+
 ### Orientable and Non-Orientable surface
 Oriented surface is a smooth surface together with a particular choice of 
 orienting unit $n$.  

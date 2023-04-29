@@ -1,39 +1,49 @@
 {
   "main": {
-    "id": "8aa86f86a433eda1",
+    "id": "b8892d9f8ce6d4d3",
     "type": "split",
     "children": [
       {
-        "id": "427cfcd3b98f362b",
+        "id": "f533b4e76e193b2b",
         "type": "tabs",
         "children": [
           {
-            "id": "bf4a295bdcd9654c",
+            "id": "bce08a27eef362c2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b7ff6f665d2751e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "math/multiCal/line_integral.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1796dcf183ee87fc",
+    "id": "ca67b016ecd621f2",
     "type": "split",
     "children": [
       {
-        "id": "50f67923efac4647",
+        "id": "32898163b0becb6b",
         "type": "tabs",
         "children": [
           {
-            "id": "8cd05e599cceb481",
+            "id": "827001143e83003c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +53,15 @@
             }
           },
           {
-            "id": "b2a5fb085dd3482b",
+            "id": "2366fc0cca6f089b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "385c1b1d0b61df0f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,14 +74,6 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "61a80fd29af7f7e8",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
           }
         ]
       }
@@ -72,32 +82,15 @@
     "width": 300
   },
   "right": {
-    "id": "21e6cb6fb4427be2",
+    "id": "df2af08c6fb3b6f5",
     "type": "split",
     "children": [
       {
-        "id": "e6d76fadb8c1cedd",
+        "id": "489b2f3157ae5597",
         "type": "tabs",
         "children": [
           {
-            "id": "53f608dcae58132e",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "math/multiCal/line_integral.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "0286c258464f8b3e",
+            "id": "122d978ee6d1d22f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -109,7 +102,7 @@
             }
           },
           {
-            "id": "1b3c7a18f28588b5",
+            "id": "1320f8e61f9756f9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,7 +113,7 @@
             }
           },
           {
-            "id": "9807207f5380d902",
+            "id": "22a7e23e882509bc",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -138,35 +131,61 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "graph:Open graph view": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "canvas:Create new canvas": true,
+      "command-palette:Open command palette": true,
+      "switcher:Open quick switcher": true
     }
   },
-  "active": "bf4a295bdcd9654c",
+  "active": "b7ff6f665d2751e4",
   "lastOpenFiles": [
-    "os/mac/network.md",
-    "os/arch/network.md",
-    "math/multiCal/line_integral.md~",
-    "math/multiCal/lagrange_multiplies.md",
     "math/multiCal/multi_integral.md",
+    "math/multiCal/line_integral.md",
+    "math/multiCal/polar_system.md",
+    "math/multiCal/lagrange_multiplies.md",
+    "math/multiCal/taylor_series.md",
+    "math/multiCal/surface.md",
+    "math/multiCal/Lapacian.md",
+    "math/linearAlgebra/vector_space.md",
+    "arch/wifi.md",
+    "arch/systemd.md",
+    "arch/issue/dependency-fail.md",
+    "arch/issue",
+    "issue/dependency-fail.md",
+    "issue",
+    "math/linearAlgebra/Determinat.md",
+    "shell/stdout.md",
     "math/multiCal/directional_derivatives_and_gradient.md",
     "math/multiCal/examtips.md",
+    "an.c~",
+    "an",
+    "an.c",
+    "math/linearAlgebra/linear_transformation.md",
     "digital_logic/Combinational_logic.md",
-    "digital_logic/gate_min.md",
-    "digital_logic/digitBase.md",
-    "digital_logic/couter.md",
-    "digital_logic/algebra_boolean.md",
-    "digital_logic/register.md",
-    "digital_logic/hazard.md",
-    "digital_logic/simpling.md",
-    "digital_logic/shannon_expression.md",
+    "img/p-27.png",
+    "img/Screenshot_20230417_161619_Samsung Notes.png",
     "digital_logic/sequential_logic.md",
-    "digital_logic/rom.md",
-    "digital_logic/pla.md",
-    "digital_logic/pal.md"
+    "math/multiCal/line_integral.md~",
+    "vim/regualr_ex.md",
+    "vim/marco.md",
+    "vim/INSERT.md",
+    "vim/filetype.md",
+    "vim/marks.md",
+    "vim/buffer.md",
+    "vim/register.md",
+    "c/func.md~",
+    "digital_logic/pal.md~",
+    "img/p-26.png",
+    "c/pointer.md~",
+    "c/c",
+    "p.png",
+    "img/p-25.png",
+    "img/Pasted image 20230402102934.png",
+    "img/p.png",
+    "img/p-9.png",
+    "img/p-8.png",
+    "img/p-7.png"
   ]
 }

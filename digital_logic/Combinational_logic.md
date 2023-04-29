@@ -5,9 +5,8 @@
 
 # Standard commbination cirucuit
 ## Adder
-*half adder**
+**half adder**
 two digit addition
-
 **full adder**
 three digit addition
 use for any bit addition by adding each	order of significant bit and input carry 

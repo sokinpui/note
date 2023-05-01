@@ -1,4 +1,4 @@
-Inner product space is not necessary to be dot product.  The rule of inner 
+ Inner product space is not necessary to be dot product.  The rule of inner 
 product is defined by the given rule. 
 
 ## Inner product

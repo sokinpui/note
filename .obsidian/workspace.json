@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "427cfcd3b98f362b",
+        "id": "54d65440d0b1646e",
         "type": "tabs",
         "children": [
           {
-            "id": "bf4a295bdcd9654c",
+            "id": "29a90ff2b8f0a15f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/multiCal/line_integral.md",
-                "mode": "source",
-                "source": false
+                "file": "shell/basic.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "fabdd8bd7dc4d98f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "digital_logic/digitBase.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 281.5
   },
   "right": {
     "id": "21e6cb6fb4427be2",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/multiCal/line_integral.md",
+                "file": "digital_logic/digitBase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/multiCal/line_integral.md",
+                "file": "digital_logic/digitBase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/multiCal/line_integral.md"
+                "file": "digital_logic/digitBase.md"
               }
             }
           }
@@ -146,27 +159,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf4a295bdcd9654c",
+  "active": "fabdd8bd7dc4d98f",
   "lastOpenFiles": [
-    "os/mac/network.md",
-    "os/arch/network.md",
-    "math/multiCal/line_integral.md~",
-    "math/multiCal/lagrange_multiplies.md",
-    "math/multiCal/multi_integral.md",
-    "math/multiCal/directional_derivatives_and_gradient.md",
-    "math/multiCal/examtips.md",
-    "digital_logic/Combinational_logic.md",
     "digital_logic/gate_min.md",
+    "digital_logic/Combinational_logic.md",
+    "digital_logic/sequential_logic.md",
+    "digital_logic/hazard.md",
+    "digital_logic/pla.md",
+    "digital_logic/pal.md",
     "digital_logic/digitBase.md",
     "digital_logic/couter.md",
     "digital_logic/algebra_boolean.md",
     "digital_logic/register.md",
-    "digital_logic/hazard.md",
-    "digital_logic/simpling.md",
-    "digital_logic/shannon_expression.md",
-    "digital_logic/sequential_logic.md",
     "digital_logic/rom.md",
-    "digital_logic/pla.md",
-    "digital_logic/pal.md"
+    "digital_logic/shannon_expression.md",
+    "digital_logic/simpling.md",
+    "shell/basic.md",
+    "math/linearAlgebra/Determinat.md",
+    "math/multiCal/Lapacian.md",
+    "vpn.md",
+    "math/linearAlgebra/Determinat.md~",
+    "math/multiCal/directional_derivatives_and_gradient.md",
+    "math/linearAlgebra/Matrix.md",
+    "math/linearAlgebra/Inner_product.md",
+    "math/linearAlgebra/Matrix.md~",
+    "math/multiCal/line_integral.md",
+    "docker.md",
+    "os/mac/network.md~",
+    "os/mac/network.md",
+    "os/arch/network.md",
+    "math/multiCal/line_integral.md~",
+    "math/multiCal/lagrange_multiplies.md",
+    "math/multiCal/multi_integral.md"
   ]
 }

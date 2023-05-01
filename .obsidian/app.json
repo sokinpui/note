@@ -1,1 +1,8 @@
-{}
+{
+  "defaultViewMode": "preview",
+  "livePreview": false,
+  "showFrontmatter": false,
+  "rightToLeft": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "img"
+}

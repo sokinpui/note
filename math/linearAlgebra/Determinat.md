@@ -12,4 +12,3 @@ The cofactor$A_{ij}$of $a_{ij}$ is defined as $A_{ij} = (-1)^{i+j}det(M_{ij})$
 ![](../../attach/Determinat-1.png)
 
 
-

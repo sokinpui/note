@@ -30,3 +30,6 @@ Using the gui application on remote ssh
 ```sh
 ssh -X <user_name>@<ip_address>
 ```
+
+# Why we need VPN before using SSH?
+[What VPN provide.](../../vpn.md)

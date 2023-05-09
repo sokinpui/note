@@ -4,5 +4,7 @@
   "showFrontmatter": false,
   "rightToLeft": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "img"
+  "attachmentFolderPath": "img",
+  "useMarkdownLinks": true,
+  "vimMode": false
 }

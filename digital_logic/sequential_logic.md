@@ -1,6 +1,5 @@
-# The basics of Sequential logic 
-circuit integrate combinational logic and memory, has time state input and time state 
-output.
+#The basics of Sequential logic circuit integrate combinational logic and 
+memory, has time state input and time state output.
 **clk**:
 usally clocked circuit or simply a periodic input signal.
 **flip flops**:

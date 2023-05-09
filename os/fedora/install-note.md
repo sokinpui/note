@@ -1,0 +1,14 @@
+- Key repeat rate
+- background image
+- fingerprint
+- alacritty
+- kmonad
+    - clone the repository then `stack build`, `sudo cp /path/to/complied-kmonad 
+      ${HOME}/.local/bin/kmonad`
+- vim
+    - install plugin, change the default setting in vim-sandwiches
+- touchpad and mouse sensitity
+- add virtual desktop
+- install github ps1 script
+    - at https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
+- install zsh-z script

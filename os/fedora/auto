@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+# auto install script after installing fedora kde plasma, script need to run as root
+
+# installing useful packages
+dnf -y install tldr brightnessctl neovim zsh vim alacritty shellcheck neofetch newsboat htop gh
+
+# install kmonad
+dnf install stack
+kmonad_dir=$(${HOME}/git_repo/complie/kmonad)
+mkdir -p ${kmonad_dir}
+exce_binary="/usr/local/bin/kmonad"
+
+git clone https://github.com/kmonad/kmonad.git ${kmonad_dir}
+cd ${kmonad_dir}
+
+stack build
+
+complied=$(find $PWD | grep -E "/bin/kmonad$")
+cp ${complied} ${exce_binary}
+chmod +x ${exce_binary}
+
+# install github ps1 and zsh-z
+plugin_dir="${HOME}/.local/"
+
+git clone https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh ${plugin_dir}
+git clone https://raw.githubusercontent.com/agkozak/zsh-z/master/zsh-z.plugin.zsh ${plugin_dir}
+
+
+# install fcitx5 pinyin
+dnf install fcitx5 kcm-fcitx5 fcitx5-chinese-addons fcitx5-table-extra fcitx5-zhuyin fcitx5-configtool
+
+# TODO copy config to new machine
+
+

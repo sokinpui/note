@@ -1,11 +1,3 @@
-Key repeat rate
-    delay 259
-    repeat rate 80.25
-
-background image
-
-fingerprint
-
 alacritty
     autostart, start with tmux session general
 
@@ -18,18 +10,10 @@ kmonad
 vim
     change the default setting in vim-sandwiches
 
-touchpad and mouse sensitity
-
-add virtual desktop
-
 install github ps1 script
     at https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
 
 install zsh-z script
-
-install obsidian
-    install gnome-software
-    install obsidian from gnome-software
 
 install pinyin
     from [here](https://insidelinuxdev.net/article/a0cr1x.html)
@@ -49,3 +33,17 @@ install pinyin
 cli tools
     tldr
     brightnessctl
+
+# not tweak from cli
+background image
+fingerprint
+macos like theme
+install obsidian
+    install gnome-software
+    install obsidian from gnome-software
+touchpad and mouse sensitity
+Key repeat rate
+    delay 259
+    repeat rate 80.25
+
+

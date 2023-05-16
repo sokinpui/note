@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "digital_logic/digitBase.md",
+                "file": "blog/hugo.md",
                 "mode": "preview",
                 "source": true
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "digital_logic/digitBase.md",
+                "file": "blog/hugo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "digital_logic/digitBase.md",
+                "file": "blog/hugo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "digital_logic/digitBase.md"
+                "file": "blog/hugo.md"
               }
             }
           }
@@ -154,14 +154,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8cd05e599cceb481",
+  "active": "f127b48f19da7af6",
   "lastOpenFiles": [
+    "progLang/java/array.md~",
+    "vim/vim9_script/autoload.md",
+    "vim/vim9_script",
+    "docker.md~",
+    "log",
+    "QUICK",
+    "quick",
+    "progLang/java/static.md~",
+    "blog/hugo_completion.md",
+    "git/token.md",
+    "docker.md",
+    "shell/if.md",
+    "vpn.md",
+    "digital_logic/digitBase.md",
     "os/fedora/install-note.md",
     "os/fedora/binary_package.vim",
-    "git/token.md",
     "os/fedora",
     "progLang/java/thinking_in_java_4th_edition.pdf",
-    "progLang/java",
     "progLang/c/union.md",
     "progLang/c/syntax.md",
     "progLang/c/struct.md",
@@ -171,11 +183,7 @@
     "progLang/c/doc_c.md",
     "progLang/c/cliarg.md",
     "progLang/c/alias.md",
-    "progLang/c",
-    "progLang",
-    "thinking_in_java_4th_edition.pdf",
     "vim/latex.md",
-    "digital_logic/digitBase.md~",
     "digital_logic/rom.md",
     "digital_logic/register.md",
     "digital_logic/pal.md",
@@ -188,19 +196,10 @@
     "img/2023-05-02-14.png",
     "img/2023-05-02-13.png",
     "digital_logic/couter.md",
-    "digital_logic/register.md~",
     "img/2023-05-02-12.png",
     "img/2023-05-02-11.png",
     "img/2023-05-02-10.png",
-    "digital_logic/couter.md~",
-    "digital_logic/digitBase.md",
-    "Untitled.md",
     "img/2023-05-02-9.png",
-    "img/2023-05-02-8.png",
-    "digital_logic/gate_min.md",
-    "digital_logic/Combinational_logic.md",
-    "digital_logic/algebra_boolean.md",
-    "digital_logic/hazard.md",
-    "digital_logic/pla.md"
+    "img/2023-05-02-8.png"
   ]
 }
